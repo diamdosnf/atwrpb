@@ -4,39 +4,39 @@ on:
   workflow_dispatch:
     inputs:
       MANIFEST_URL:
-        description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
+        description: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
         required: true
         default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
       MANIFEST_BRANCH:
-        description: 'MANIFEST_BRANCH'
+        description: 'twrp-12.1'
         required: true
         default: 'twrp-12.1'
       DEVICE_TREE_URL:
-        description: 'DEVICE_TREE_URL'
+        description: 'https://github.com/diamdosnf/a24'
         required: true
-        default: 'https://github.com/TeamWin/android_device_asus_I003D'
+        default: 'https://github.com/diamdosnf/a24'
       DEVICE_TREE_BRANCH:
-        description: 'DEVICE_TREE_BRANCH'
+        description: 'A245FXXU3BWK3'
         required: true
-        default: 'android-12.1'
+        default: 'A245FXXU3BWK3'
       DEVICE_PATH:
-        description: 'DEVICE_PATH'
+        description: 'device/samsung/a24'
         required: true
-        default: 'device/asus/I003D'
+        default: 'device/samsung/a24'
       COMMON_TREE_URL:
-        description: 'COMMON_TREE_URL (if no common tree, leave blank)'
+        description: ''
         required: false
       COMMON_PATH:
-        description: 'COMMON_PATH (if no common tree, leave blank)'
+        description: ''
         required: false
       DEVICE_NAME:
-        description: 'DEVICE_NAME'
+        description: 'A24'
         required: true
-        default: 'I003D'
+        default: 'A24'
       MAKEFILE_NAME:
-        description: 'MAKEFILE_NAME'
+        description: 'twrp_A24'
         required: true
-        default: 'twrp_I003D'
+        default: 'twrp_A24'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
