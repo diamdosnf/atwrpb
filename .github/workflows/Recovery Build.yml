@@ -30,13 +30,13 @@ on:
         description: ''
         required: false
       DEVICE_NAME:
-        description: 'A24'
+        description: 'a24'
         required: true
-        default: 'A24'
+        default: 'a24'
       MAKEFILE_NAME:
-        description: 'twrp_A24'
+        description: 'a24'
         required: true
-        default: 'twrp_A24'
+        default: 'a24'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
